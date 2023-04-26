@@ -1,0 +1,79 @@
+header {
+  background: linear-gradient(108deg, #05d3d8 0%, #00759b 100%);
+}
+header .ul-container {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+header .nav-ul li {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+header .nav-ul li:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+header .nav-ul li a::after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 0px;
+  height: 2px;
+  bottom: -10px;
+  left: 0px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+header .nav-ul li:hover a::after {
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  header .ul-container {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    flex-direction: column;
+    background: #fff;
+    max-width: 300px;
+    min-height: 100vh;
+    padding-top: 6rem;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+  header .ul-container.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  header .overflow {
+    position: absolute;
+    inset: 0;
+    z-index: 900;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+  }
+  header .overflow.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  header .nav-ul li:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  header .nav-ul li a::after {
+    background: #000;
+  }
+}

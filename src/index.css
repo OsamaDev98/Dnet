@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Michroma&display=swap");
+
+body,
+html {
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+:root {
+  --trans: 0.5s;
+  --main-color: #ebf5ff;
+  --color-1: #1192f8;
+  --color-2: #2ebf6d;
+  --color-3: #ff7c3f;
+}
+
+.hero-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+@media screen and (max-width: 1024px) {
+  .hero-container {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hero-container {
+    max-width: 767px;
+  }
+}
+.section {
+  margin: 8rem 0;
+}
+.padding-section {
+  padding: 150px 0 300px 0;
+}
+@media screen and (max-width: 1024px) {
+  .padding-section {
+    padding: 100px 15px 300px 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .padding-section {
+    padding: 100px 15px;
+  }
+}
+.section .section-title-container {
+  margin-bottom: 6rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.section .section-title-container .section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  color: #00759b;
+}
+/* .section .section-title-container .section-title::after {
+  position: absolute;
+  content: "";
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  background: #0fc1e7;
+  width: 80px;
+  height: 4px;
+} */
+.section .section-title-container .section-subtitle {
+  max-width: 650px;
+  font-size: 1rem;
+  color: #747984;
+  line-height: 1.5rem;
+}
+@media screen and (max-width: 590px) {
+  .section .section-title-container .section-title {
+    font-size: 2.1rem;
+  }
+  .section .section-title-container .section-subtitle {
+    max-width: 450px;
+  }
+}

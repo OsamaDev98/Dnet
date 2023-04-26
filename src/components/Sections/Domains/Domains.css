@@ -1,0 +1,46 @@
+.domains-section .domains-container {
+  display: grid;
+  grid-gap: 56px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  .domains-section .domains-container {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+}
+.domains-section .domains-container .buy-domain:hover {
+  transition: all var(--trans);
+  -webkit-transition: all var(--trans);
+  -moz-transition: all var(--trans);
+  -ms-transition: all var(--trans);
+  -o-transition: all var(--trans);
+  transform: translateX(-10px);
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  -o-transform: translateX(-10px);
+}
+.domains-section .domains-container .buy-domain:hover .domains-btn-arrow {
+  animation: move-domain-arrow 0.5s infinite alternate linear;
+  -webkit-animation: move-domain-arrow 0.5s infinite alternate linear;
+}
+@keyframes move-domain-arrow {
+  0% {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1rem);
+    -webkit-transform: translateX(-1rem);
+    -moz-transform: translateX(-1rem);
+    -ms-transform: translateX(-1rem);
+    -o-transform: translateX(-1rem);
+  }
+}

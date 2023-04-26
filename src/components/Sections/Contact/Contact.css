@@ -1,0 +1,9 @@
+.contact-section .contact-container {
+  padding: 57px 69px 32px 65px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 850px) {
+  .contact-section .contact-container {
+    padding: 60px 0;
+  }
+}

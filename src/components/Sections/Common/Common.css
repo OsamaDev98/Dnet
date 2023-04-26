@@ -1,0 +1,63 @@
+.common-section .tab {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem 2rem 0 2rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  overflow: hidden;
+  max-width: 700px;
+}
+.common-section .tab .tab-label::after {
+  content: "\276F";
+  width: 1rem;
+  height: 1rem;
+  text-align: center;
+  transition: all 0.35s;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -ms-transition: all 0.35s;
+  -o-transition: all 0.35s;
+}
+.common-section .tab-radio {
+  display: none;
+}
+.common-section .tab-label {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+.common-section .tab-content {
+  color: #91a2c7;
+  font-size: 14px;
+  margin-right: 2.5rem;
+  max-height: 0;
+  transition: all 0.35s;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -ms-transition: all 0.35s;
+  -o-transition: all 0.35s;
+}
+@media screen and (max-width: 500px) {
+  .common-section .tab-content {
+    margin-right: 1rem;
+  }
+}
+.common-section .tab-radio:checked + .tab-label {
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.common-section .tab-radio:checked + .tab-label::after {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.common-section .tab-radio:checked ~ .tab-content {
+  max-height: 100vh;
+  margin-bottom: 1.5rem;
+}
