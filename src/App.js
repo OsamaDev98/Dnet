@@ -5,7 +5,7 @@ import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename="/Dnet">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
