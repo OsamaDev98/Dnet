@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Dnet/static/css/main.198a03e7.css",
+    "main.js": "/Dnet/static/js/main.3f643cc9.js",
+    "static/media/home-video.mp4": "/Dnet/static/media/home-video.1e89d84f3bd3e2fbee45.mp4",
+    "static/media/multi language.svg": "/Dnet/static/media/multi language.17157a1e3190d2f350e53a9d419b1196.svg",
+    "static/media/orange.svg": "/Dnet/static/media/orange.aede0d9793f942fbc50df51b0a11bcd1.svg",
+    "static/media/use.svg": "/Dnet/static/media/use.cb8f7f5c9d997b81808df5805ce9a8fe.svg",
+    "static/media/control.svg": "/Dnet/static/media/control.eb4bd9a2a0742d58eba4f8cd70a7b7a1.svg",
+    "static/media/design.png": "/Dnet/static/media/design.9db3d0b4fde2261e9f01.png",
+    "static/media/domain.png": "/Dnet/static/media/domain.81cc95a94a4f0e2a7880.png",
+    "static/media/payment.svg": "/Dnet/static/media/payment.d5aa6f9e66b716b50a093dfabb837efb.svg",
+    "static/media/dns.svg": "/Dnet/static/media/dns.a08efd5db41a9692283b71d42a15ce79.svg",
+    "static/media/blue.svg": "/Dnet/static/media/blue.faa91faf6cdfeada80437134d8478ef9.svg",
+    "static/media/services-img.png": "/Dnet/static/media/services-img.6616c7dcc0029423f3da.png",
+    "static/media/google2.png": "/Dnet/static/media/google2.5245ec2bb1517234aa68.png",
+    "static/media/mail2.png": "/Dnet/static/media/mail2.b0ad5e43e8476d70a45f.png",
+    "static/media/microsoft2.png": "/Dnet/static/media/microsoft2.08f7d5c492e3903cab72.png",
+    "static/media/support.svg": "/Dnet/static/media/support.f0f9607b980bd3f81dda8c0e7a9bc34f.svg",
+    "static/media/green.svg": "/Dnet/static/media/green.19aa2fc13f0805fe2d1857bd941cd24e.svg",
+    "static/media/trust.png": "/Dnet/static/media/trust.290d3eb873b0169e93b2.png",
+    "static/media/mada.svg": "/Dnet/static/media/mada.4c4800df6cbc7f61c37e0e641a1850e4.svg",
+    "static/media/Logo.svg": "/Dnet/static/media/Logo.3b59165cbc458db1bfac3fe2e49b339a.svg",
+    "static/media/visa.svg": "/Dnet/static/media/visa.10ab7832c0fe501c81a38849a057838e.svg",
+    "static/media/amex.svg": "/Dnet/static/media/amex.857b48639a8733a2dac159cffb5efdc2.svg",
+    "static/media/mastercard.svg": "/Dnet/static/media/mastercard.91fda2b49bbcdfa6157fd1ba6aa4f34a.svg",
+    "index.html": "/Dnet/index.html",
+    "main.198a03e7.css.map": "/Dnet/static/css/main.198a03e7.css.map",
+    "main.3f643cc9.js.map": "/Dnet/static/js/main.3f643cc9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.198a03e7.css",
+    "static/js/main.3f643cc9.js"
+  ]
+}
